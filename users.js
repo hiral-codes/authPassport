@@ -8,7 +8,15 @@ mongoose.connect("mongodb://127.0.0.1:27017/testmongodb");
 const userSchema = mongoose.Schema({
     // User Details Schema
     email: String,
-    password: String
+    password: String,
+    enrollment: String,
+    name: String,
+    phone: String,
+    address: String,
+    city: String,
+    state: String,
+    zip: String,
+    country: String,
 });
 
 // Exporting Model
