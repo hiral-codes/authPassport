@@ -11,7 +11,7 @@ import userModel from './users.js';
 const app = express();
 
 // Setting Up Port
-const port = 1608;
+const port = 1600;
 
 
 
@@ -60,7 +60,7 @@ app.get('/profile', (req, res) => {
     res.render("profile")
 })
 
-
+// Demo
 // Listening to a port
 app.listen(port, () => {
     console.log(`Server Started: http://localhost:${port}`);
