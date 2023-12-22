@@ -17,6 +17,7 @@ const userSchema = mongoose.Schema({
     state: String,
     zip: String,
     country: String,
+    keys: String,
 });
 
 // Exporting Model
